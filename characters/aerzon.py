@@ -15,14 +15,14 @@ player_name = "Fabian"
 
 # Be sure to list Primary class first
 classes = ['Bard']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [8]  # ex: [10] or [3, 2]
+levels = [5]  # ex: [10] or [3, 2]
 subclasses = ["College of Valor"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Entertainer"
 race = "Human"
 alignment = "Chaotic neutral"
 
 xp = 0
-hp_max = 67
+hp_max = 38
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -69,8 +69,8 @@ gp = 1
 pp = 110
 
 # TODO: Put your equipped weapons and armor here
-weapons = ["Rapir +1", "Dagger", "Heavy Crossbow"]  # Example: ('shortsword', 'longsword')
-magic_items = ('Saphire of the Warmage', 'Half Plate of Gleaming', 'Endless Summer')  # Example: ('ring of protection',)
+weapons = ["MagicRapirPlusOne", "Dagger", "Heavy Crossbow"]  # Example: ('shortsword', 'longsword')
+magic_items = ('SaphireOfTheWarmage', 'HalfPlateOfGleaming', 'EndlessSummer', 'rapir_plus_1')  # Example: ('ring of protection',)
 armor = "Half Plate"  # Eg "leather armor"
 shield = ""  # Eg "shield"
 
@@ -89,8 +89,8 @@ attacks_and_spellcasting = """Saphire of the War Mage am Rapir"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ('Minor Illusion', 'Mage Hand', 'Vicious Mockery', 'Healing Word', "Tasha’s Hideous Laughter",
-"Thunderwave", "Heat Metal", "Enhance Ability", 'Suggestion', "Leomund’s Tiny Hut", "Dispel Magic"
+spells_prepared = ('Minor Illusion', 'Mage Hand', 'Vicious Mockery', 'Healing Word', "Tashas Hideous Laughter",
+"Thunderwave", "Heat Metal", "Enhance Ability", 'Suggestion', "Leomunds Tiny Hut", "Dispel Magic"
 )
 
 # Which spells have not been prepared
