@@ -54,3 +54,14 @@ class EndlessSummer(MagicItem):
     ac_bonus = 0
     requires_attunement = True
     rarity = 'Very Rare'
+
+class GlaiveOfTheMoon(MagicItem):
+    """Magical Damage +1
+    As an action can glow in a bright blue color
+    (reminder: phil)
+    """
+    name = "Glaive of the Moon"
+    ac_bonus = 0
+    requires_attunement = True
+    rarity = 'Very Rare'
+    

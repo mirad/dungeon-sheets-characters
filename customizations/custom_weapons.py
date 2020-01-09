@@ -14,3 +14,11 @@ class MagicRapirPlusOne(Rapier):
     base_damage = "d8"
     damage_type = 'p'
     properties = 'Finesse'
+
+class GlaiveOfTheMoon(Rapier):
+    name = "Glaive +1"
+    damage_bonus = 1
+    attack_bonus = 1
+    base_damage = "d10"
+    damage_type = 's'
+    properties = 'Heavy, Reach, Two Handed'
