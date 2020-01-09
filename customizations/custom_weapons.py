@@ -7,8 +7,8 @@ class PactWeapon(Longsword):
     properties = 'Versatile (1d10)'
 
 
-class MagicRapir(Rapier):
-    name = "Rapir+1"
+class MagicRapirPlusOne(Rapier):
+    name = "Rapir +1"
     damage_bonus = 1
     attack_bonus = 1
     base_damage = "d8"

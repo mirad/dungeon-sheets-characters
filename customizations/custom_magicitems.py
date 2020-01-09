@@ -34,23 +34,23 @@ class HalfPlateOfGleaming(MagicItem):
     requires_attunement = False
     rarity = 'Common'
 
-class SaphireOfGleaming(MagicItem):
+class SaphireOfTheWarmage(MagicItem):
     """
     1 inch saqhire, attach to weapon, the weapon can then be used as a spellcasting focus. 
     Cannot be removed
     """
-    name = "Saphire of Gleaming"
+    name = "Saphire of the Warmage"
     ac_bonus = 0
     requires_attunement = True
     rarity = 'Common'
 
-class EndlessSUmmer(MagicItem):
+class EndlessSummer(MagicItem):
     """
     magic, indistructable
     Advantage on tragic performances
     (reminder: phil)
     """
-    name = "Saphire of Gleaming"
+    name = "Endless Summer"
     ac_bonus = 0
     requires_attunement = True
     rarity = 'Very Rare'
