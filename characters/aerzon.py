@@ -38,7 +38,7 @@ charisma = 18
 skill_proficiencies = ('acrobatics', 'deception', 'performance', 'sleight of hand', 'persuasion')
 
 # Any skills you have "expertise" (Bard/Rogue) in
-skill_expertise = ('persuiasion', 'deception')
+skill_expertise = ('persuasion', 'deception')
 
 # Named features / feats that aren't part of your classes, race, or background.
 # Also include Eldritch Invocations and features you make multiple selection of
