@@ -15,14 +15,14 @@ player_name = "Phil"
 
 # Be sure to list Primary class first
 classes = ['Warlock']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [8]  # ex: [10] or [3, 2]
+levels = [9]  # ex: [10] or [3, 2]
 subclasses = ["Hexblade Patron"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Mercenary Veteran"
 race = "Half-Elf"
 alignment = "Chaotic neutral"
 
 xp = 0
-hp_max = 67
+hp_max = 75
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -46,9 +46,9 @@ skill_expertise = ()
 # Gunslinger, etc.)
 # Example:
 # features = ('Tavern Brawler',) # take the optional Feat from PHB
-features = ('Improved Pact Weapon', 'Thirsting Blade', 'Tricksters Escape', 'Eldritch Smite',
+features = ('Improved Pact Weapon', 'Thirsting Blade', 'Whispers of the Grave', 'Eldritch Smite', 'Agonizing Blast',
             #Feats
-            'Luck',
+            'Lucky',
             )
 
 # If selecting among multiple feature options: ex Fighting Style
@@ -89,9 +89,8 @@ attacks_and_spellcasting = """HexBlade ist Spellcasting Focus"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
-spells_prepared = ('Shield', 'Wrathful Smite', 'Blur', 'Branding Smite', 'Blink', 'Elemental Weapon', 'Phantasmal Killer', 'Staggering Smite',  # Warlock Spells
-    'Eldritch Blast', 'Minor Illusion', 'Prestidigitation', 'Armor of Agathys', 'Hex', 'Arms of Hadar', 'Suggestion',
-    'Vampiric Touch', 'Dimension Door', 'Charm Monster', 'Sickening Radiance', 'Summon Greater Demon', )
+spells_prepared = ('Armor of Agathys', 'Hex', 'Vampiric Touch', 'Fly', 'Tongues', 'Charm Monster', 
+                   'Dimension Door', 'Sickening Radiance', 'Dream', 'Contact other plane')
 
 # Which spells have not been prepared
 __spells_unprepared = ()
