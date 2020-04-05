@@ -67,7 +67,7 @@ class GlaiveOfTheMoon(MagicItem):
 
 class HornOfSummerCourt(MagicItem):
     """
-    Prachtvolles Horn des Summer Court
+    Splendid Horn of Summer Court
     """
     name = "Summer Court Horn"
     ac_bonus = 0

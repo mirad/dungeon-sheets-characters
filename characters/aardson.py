@@ -16,7 +16,7 @@ player_name = "Fabian"
 # Be sure to list Primary class first
 classes = ['Bard']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
 levels = []  # ex: [10] or [3, 2]
-subclasses = ["College of Valor"]  # ex: ['Necromacy'] or ['Thief', None]
+subclasses = ["College of Valor"]
 background = "Entertainer"
 race = "Human"
 alignment = "Chaotic neutral"
