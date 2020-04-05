@@ -1,4 +1,4 @@
-"""This file describes the heroic adventurer Aarzon.
+"""This file describes the heroic adventurer Aardsøn.
 
 It's used primarily for saving characters from create-character,
 where there will be many missing sections.
@@ -10,20 +10,20 @@ sheet by running ``makesheets`` from the command line.
 
 dungeonsheets_version = "0.9.4"
 
-name = "Aardson"
+name = "Aardsøn Sumarlid"
 player_name = "Fabian"
 
 # Be sure to list Primary class first
 classes = ['Bard']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [5]  # ex: [10] or [3, 2]
+levels = []  # ex: [10] or [3, 2]
 subclasses = ["College of Valor"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Entertainer"
 race = "Human"
 alignment = "Chaotic neutral"
 
 xp = 0
-hp_max = 38
-inspiration = 0  # integer inspiration value
+hp_max = 45
+inspiration = 1  # integer inspiration value
 
 # Ability Scores
 strength = 11
@@ -59,38 +59,51 @@ _proficiencies_text = ('horn', 'harp', 'piano', 'drum')  # ex: ("thieves' tools"
 
 # Proficiencies and languages
 languages = """Common, Elvish"""
+proficiencies = """martial weapons, simple weapons"""
 
 # Inventory
-# TODO: Get yourself some money
 cp = 12
-sp = 5
+sp = 25
 ep = 30
-gp = 1
+gp = 571
 pp = 110
 
 # TODO: Put your equipped weapons and armor here
 weapons = ["MagicRapirPlusOne", "Dagger", "Heavy Crossbow"]  # Example: ('shortsword', 'longsword')
-magic_items = ('SaphireOfTheWarmage', 'HalfPlateOfGleaming', 'EndlessSummer', 'rapir_plus_1')  # Example: ('ring of protection',)
+magic_items = ('SaphireOfTheWarmage', 'HalfPlateOfGleaming', 'EndlessSummer', 'rapir_plus_1', 'HornOfSummerCourt')  # Example: ('ring of protection',)
 armor = "Half Plate"  # Eg "leather armor"
 shield = ""  # Eg "shield"
 
 equipment = """Disguise kit, Costume, Formal Cloth, 
-Diplomat Pack (Fine Cloths, Ink/Pen, Lamp +2x Oil, 5 Sheets of Paper, Pefrume, Sealing Wax, Soap, 2 cases for maps and scrolls),
-Instrumente
-Leather Armor
+Diplomat Pack
 Grüne Feder
-Duklaimer (Guitarre)
+Duklaimer (Gittare)
 Horn
 Harfe
-Leather Armor
+13 Hydrazähne
+2 Eberdämonenfänge
+2 Goldfänge
+14 Hydrablut
+Schriftrolle m. Ritual
+Klapptisch
+5 Rationen
+5 Smaragde
+Flasche Alkohol
+Blüte von Immatensien
 """
 
-attacks_and_spellcasting = """Saphire of the War Mage am Rapir"""
+attacks_and_spellcasting = """2 Attacken,
+Saphire of the War Mage am Rapir,
+Summer Court Horn,
+Harp of Endless Summer,
+Scimitar von Abadin (d8/d10),
+Kurzschwert
+Obsidiandolch"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
 spells_prepared = ('Minor Illusion', 'Mage Hand', 'Vicious Mockery', 'Healing Word', "Tashas Hideous Laughter",
-"Thunderwave", "Heat Metal", "Enhance Ability", 'Suggestion', "Leomunds Tiny Hut", "Dispel Magic"
+"Thunderwave", "Heat Metal", "Enhance Ability", 'Suggestion', "Leomunds Tiny Hut", "Dispel Magic", "Send"
 )
 
 # Which spells have not been prepared
@@ -104,12 +117,15 @@ wild_shapes = ()  # Ex: ('ape', 'wolf', 'ankylosaurus')
 
 # Backstory
 # Describe your backstory here
-personality_traits = """personality traits"""
+personality_traits = """Loves Good Insults"""
 
-ideals = """ideals"""
+ideals = """Creativity"""
 
-bonds = """bonds"""
+bonds = """Loyal to Harkvaard"""
 
-flaws = """flaws"""
+flaws = """Sucker for pretty Faces"""
 
-features_and_traits = """Schreib hier was tolles hin! :)"""
+features_and_traits = """Countercharm (friendly creatures in 30ft radius advantage on charmed / frightened); Disadvantage on heroic tales (performance),
+Blessing,
+2 Levels of Exhaustion
+"""

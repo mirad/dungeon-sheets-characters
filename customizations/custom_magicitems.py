@@ -64,4 +64,12 @@ class GlaiveOfTheMoon(MagicItem):
     ac_bonus = 0
     requires_attunement = True
     rarity = 'Very Rare'
-    
+
+class HornOfSummerCourt(MagicItem):
+    """
+    Prachtvolles Horn des Summer Court
+    """
+    name = "Summer Court Horn"
+    ac_bonus = 0
+    requires_attunement = True
+    rarity = 'Very Rare'
