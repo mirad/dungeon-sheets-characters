@@ -15,14 +15,14 @@ player_name = "Micha"
 
 # Be sure to list Primary class first
 classes = ['Fighter']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [6]  # ex: [10] or [3, 2]
+levels = [7]  # ex: [10] or [3, 2]
 subclasses = ["Battle Master"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Soldier"
 race = "Mountain Dwarf"
 alignment = "Neutral good"
 
 xp = 0
-hp_max = 65
+hp_max = 72
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -49,7 +49,7 @@ skill_expertise = ()
 # features = ('commanders strike', 'disarming attack', 'distracting strike',
 #            'evasive footwork', 'rally', 'parry', 'sweeping attack',
 #            'lunging attack')
-features = ('Riposte', 'Precision Attack', 'Distracting Strike') #'Triping Attack' at level 
+features = ('Riposte', 'Precision Attack', 'Distracting Strike', 'Triping Attack','Menacing Attack') #'Triping Attack' at level 
 
 # If selecting among multiple feature options: ex Fighting Style
 #Example (Fighting Style):
@@ -68,7 +68,7 @@ languages = """Common, Dwarvish"""
 cp = 1040
 sp = 0
 ep = 0
-gp = 15
+gp = 65
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
