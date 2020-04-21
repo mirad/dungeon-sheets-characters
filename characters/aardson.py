@@ -22,7 +22,7 @@ race = "Human"
 alignment = "Chaotic neutral"
 
 xp = 0
-hp_max = 45
+hp_max = 55
 inspiration = 1  # integer inspiration value
 
 # Ability Scores
@@ -86,24 +86,24 @@ Harfe
 14 Hydrablut
 Schriftrolle m. Ritual
 Klapptisch
-5 Rationen
+3 Rationen
 5 Smaragde
 Flasche Alkohol
 Blüte von Immatensien
 """
 
 attacks_and_spellcasting = """2 Attacken,
-Saphire of the War Mage am Rapir,
+Saphire of the War Mage on Rapir,
 Summer Court Horn,
 Harp of Endless Summer,
-Scimitar von Abadin (d8/d10),
+Scimitar (d8/d10),
 Kurzschwert
 Obsidiandolch"""
 
 # List of known spells
 # Example: spells_prepared = ('magic missile', 'mage armor')
 spells_prepared = ('Minor Illusion', 'Mage Hand', 'Vicious Mockery', 'Healing Word', "Tashas Hideous Laughter",
-"Thunderwave", "Heat Metal", "Enhance Ability", 'Suggestion', "Leomunds Tiny Hut", "Dispel Magic", "Send"
+"Thunderwave", "Heat Metal", "Enhance Ability", 'Suggestion', "Leomunds Tiny Hut", "Dispel Magic", "Send", "Dimension Door"
 )
 
 # Which spells have not been prepared
@@ -125,7 +125,5 @@ bonds = """Loyal to Harkvaard"""
 
 flaws = """Sucker for pretty Faces"""
 
-features_and_traits = """Countercharm (friendly creatures in 30ft radius advantage on charmed / frightened); Disadvantage on heroic tales (performance),
-Blessing,
-2 Levels of Exhaustion
+features_and_traits = """Countercharm (friendly creatures in 30ft radius advantage on charmed / frightened); Disadvantage on heroic tales (performance)
 """
