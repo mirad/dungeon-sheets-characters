@@ -15,14 +15,14 @@ player_name = "Micha"
 
 # Be sure to list Primary class first
 classes = ['Fighter']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [7]  # ex: [10] or [3, 2]
+levels = [8]  # ex: [10] or [3, 2]
 subclasses = ["Battle Master"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Soldier"
 race = "Mountain Dwarf"
 alignment = "Neutral good"
 
 xp = 0
-hp_max = 72
+hp_max = 84
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -49,7 +49,7 @@ skill_expertise = ()
 # features = ('commanders strike', 'disarming attack', 'distracting strike',
 #            'evasive footwork', 'rally', 'parry', 'sweeping attack',
 #            'lunging attack')
-features = ('Riposte', 'Precision Attack', 'Distracting Strike', 'Triping Attack','Menacing Attack') #'Triping Attack' at level 
+features = ('Riposte', 'Precision Attack', 'Distracting Strike', 'Triping Attack','Menacing Attack', 'Sentinel') #'Triping Attack' at level 
 
 # If selecting among multiple feature options: ex Fighting Style
 #Example (Fighting Style):
@@ -68,16 +68,16 @@ languages = """Common, Dwarvish"""
 cp = 1040
 sp = 0
 ep = 0
-gp = 65
+gp = 359
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
-weapons = ('battleaxe','handaxe')  # Example: ('shortsword', 'longsword')
+weapons = ('Battleaxe +1','handaxe')  # Example: ('shortsword', 'longsword')
 magic_items = ()  # Example: ('ring of protection',)
-armor = "Plate Mail"  # Eg "leather armor"
+armor = "PlateDwarf"  # Eg "leather armor"
 shield = "shield"  # Eg "shield"
 
-equipment = """Squad-Leader clothes, commonm clothes, Sculp (Throphy), Backpack, Bedroll, Mess kit, Tinderbox,  10 torches, 7 days of Rations, Waterskin, 2 Blankets, 1 incense, alms box, hempen rope 50m, Bard, nice blanket  violet (80gp), tent 3 person"""
+equipment = """Squad-Leader clothes, commonm clothes, Sculp (Throphy), Backpack, Bedroll, Mess kit, Tinderbox,  10 torches, 6 days of Rations, Waterskin, 2 Blankets, 1 incense, alms box, hempen rope 50m, Bard, nice blanket  violet (80gp), tent 3 person, BattleAxe (bough for 1000)"""
 
 attacks_and_spellcasting = """Disadvantage: Stealth Attack Roll: 1d20+5, 4 Superiority Dice: d8, Maneuver save DC = 8 + my proficiency + my Dex"""
 
