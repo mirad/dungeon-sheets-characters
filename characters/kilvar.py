@@ -68,7 +68,7 @@ languages = """Common, Dwarvish"""
 cp = 1040
 sp = 0
 ep = 0
-gp = 359
+gp = 150
 pp = 0
 
 # TODO: Put your equipped weapons and armor here
@@ -77,7 +77,7 @@ magic_items = ()  # Example: ('ring of protection',)
 armor = "PlateDwarf"  # Eg "leather armor"
 shield = "shield"  # Eg "shield"
 
-equipment = """Squad-Leader clothes, commonm clothes, Sculp (Throphy), Backpack, Bedroll, Mess kit, Tinderbox,  10 torches, 6 days of Rations, Waterskin, 2 Blankets, 1 incense, alms box, hempen rope 50m, Bard, nice blanket  violet (80gp), tent 3 person, BattleAxe (bough for 1000)"""
+equipment = """Squad-Leader clothes, commonm clothes, Sculp (Throphy), Backpack, Bedroll, Mess kit, Tinderbox,  10 torches, 6 days of Rations, Waterskin, 2 Blankets, 1 incense, alms box, hempen rope 50m, Bard, nice blanket  violet (80gp), tent 3 person, Trophy (Sword made out of mithril), Everfull Mug of dwarven beer """
 
 attacks_and_spellcasting = """Disadvantage: Stealth Attack Roll: 1d20+5, 4 Superiority Dice: d8, Maneuver save DC = 8 + my proficiency + my Dex"""
 
