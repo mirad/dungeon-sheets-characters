@@ -49,7 +49,7 @@ skill_expertise = ()
 # features = ('commanders strike', 'disarming attack', 'distracting strike',
 #            'evasive footwork', 'rally', 'parry', 'sweeping attack',
 #            'lunging attack')
-features = ('Riposte', 'Precision Attack', 'Distracting Strike', 'Triping Attack','Menacing Attack', 'Sentinel') #'Triping Attack' at level 
+features = ('Riposte', 'Precision Attack', 'Distracting Strike', 'Trip Attack','Menacing Attack', 'Sentinel') #'Triping Attack' at level 
 
 # If selecting among multiple feature options: ex Fighting Style
 #Example (Fighting Style):
