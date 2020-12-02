@@ -15,14 +15,14 @@ player_name = "Micha"
 
 # Be sure to list Primary class first
 classes = ['Fighter']  # ex: ['Wizard'] or ['Rogue', 'Fighter']
-levels = [8]  # ex: [10] or [3, 2]
+levels = [9]  # ex: [10] or [3, 2]
 subclasses = ["Battle Master"]  # ex: ['Necromacy'] or ['Thief', None]
 background = "Soldier"
 race = "Mountain Dwarf"
 alignment = "Neutral good"
 
 xp = 0
-hp_max = 84
+hp_max = 93
 inspiration = 0  # integer inspiration value
 
 # Ability Scores
@@ -49,7 +49,7 @@ skill_expertise = ()
 # features = ('commanders strike', 'disarming attack', 'distracting strike',
 #            'evasive footwork', 'rally', 'parry', 'sweeping attack',
 #            'lunging attack')
-features = ('Riposte', 'Precision Attack', 'Distracting Strike', 'Trip Attack','Menacing Attack', 'Sentinel') #'Triping Attack' at level 
+features = ('Riposte', 'Precision Attack', 'Distracting Strike', 'Triping Attack','Menacing Attack', 'Sentinel') #'Triping Attack' at level 
 
 # If selecting among multiple feature options: ex Fighting Style
 #Example (Fighting Style):
@@ -73,7 +73,7 @@ pp = 0
 
 # TODO: Put your equipped weapons and armor here
 weapons = ('Battleaxe +1','handaxe')  # Example: ('shortsword', 'longsword')
-magic_items = ()  # Example: ('ring of protection',)
+magic_items = ('Cloak of Protection')  # Example: ('ring of protection',)
 armor = "PlateDwarf"  # Eg "leather armor"
 shield = "shield"  # Eg "shield"
 
